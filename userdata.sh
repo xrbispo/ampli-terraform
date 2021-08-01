@@ -25,8 +25,8 @@ cd /tmp
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-aws configure set aws_access_key_id "AKIAYOOZNSNG5KELBWJA"
-aws configure set aws_secret_access_key "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"
+aws configure set aws_access_key_id "<access_key>"
+aws configure set aws_secret_access_key "<secret_key>"
 aws configure set aws_default_region "sa-east-1"
 
 
